@@ -18,3 +18,28 @@ div#title {
     padding-left: 3%;
     padding-top: 1%;
 }
+h1 {
+    float: left;
+    font-family: 'Libre Baskerville', serif;
+    color: #FF004A;
+}
+ul.vertical.medium-horizontal.menu {
+    float: left;
+    margin-left: 34%;
+    padding-top: 1%;
+}
+a {
+    color: white;
+}
+a:after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0%;
+    border-bottom: 2px solid #3366FF;
+    transition: 0.4s;
+}
+a:hover:after {
+    width: 100%;
+}
