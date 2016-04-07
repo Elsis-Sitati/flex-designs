@@ -61,3 +61,12 @@ i.fa.fa-angle-down.fa-5x {
     margin-top: 1%;
     color: #FF004A;
 }
+@media screen and (max-width: 39.9375em) {
+    p#text1 {
+        font-size: 22px;
+        margin-top: 42%;
+    }
+    i.fa.fa-angle-down.fa-5x {
+        margin-top: 16%;
+    }
+}
