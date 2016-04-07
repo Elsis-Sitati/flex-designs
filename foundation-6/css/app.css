@@ -31,15 +31,11 @@ ul.vertical.medium-horizontal.menu {
 a {
     color: white;
 }
-a:after {
-    content: '';
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 0%;
-    border-bottom: 2px solid #3366FF;
-    transition: 0.4s;
-}
-a:hover:after {
-    width: 100%;
+@media screen and (max-width: 39.9375em) {
+    h1 {
+        padding-top: 13%;
+    }
+    div#title {
+        height: 25%;
+    }
 }
