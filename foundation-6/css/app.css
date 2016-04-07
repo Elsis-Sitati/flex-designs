@@ -39,3 +39,20 @@ a {
         height: 25%;
     }
 }
+div#homeText {
+    height: 85%;
+    background-color: red;
+    background-image: url(../img/messana-ororke-interior-design-agency-3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+p#text1 {
+    font-size: 49px;
+    font-weight: 900;
+    color: black;
+    margin-left: 8%;
+    margin-top: 15%;
+}
+b {
+    color: #FF004A;
+}
