@@ -56,3 +56,8 @@ p#text1 {
 b {
     color: #FF004A;
 }
+i.fa.fa-angle-down.fa-5x {
+    margin-left: 46%;
+    margin-top: 1%;
+    color: #FF004A;
+}
