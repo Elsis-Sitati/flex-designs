@@ -145,14 +145,12 @@ div#container4 {
     background-color: white;
 }
 div#portfolio {
-    height: 150%;
-}
-div#worktext {
-    height: 15%;
+    height: 20%;
     text-align: center;
 }
 p#workp {
-    font-size: 31px;
+    font-size: 30px;
+    margin-top: 3%;
     color: #724444;
 }
 h3#cs {
