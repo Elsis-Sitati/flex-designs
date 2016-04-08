@@ -13,3 +13,24 @@ $(document).ready(function () {
         });
     });
 });
+
+$("#imageholder").vegas({
+    cover: true,
+    slides: [
+        {
+            src: "img/year.jpg"
+        },
+        {
+            src: "img/image.jpg"
+        },
+        {
+            src: "img/image1.jpg"
+        },
+        {
+            src: "img/image2.jpg"
+        },
+        {
+            src: "img/image4.jpg"
+        }
+    ]
+});

@@ -70,3 +70,21 @@ i.fa.fa-angle-down.fa-5x {
         margin-top: 16%;
     }
 }
+div#container2 {
+    height: 100%;
+    margin: 0%;
+    padding: 0%;
+}
+div#imageRow {
+    height: 100%;
+    margin: 0%;
+    padding: 0%;
+}
+i#imagearrow {
+    margin-top: 40%;
+}
+@media screen and (max-width: 39.9375em) {
+    i#imagearrow {
+        margin-top: 122%;
+    }
+}
