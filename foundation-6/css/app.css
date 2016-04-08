@@ -130,4 +130,13 @@ div#abouttext3 {
     p#abouttext1 {
         font-size: 26px;
     }
+    div#abouttext2 {
+        height: 63%;
+    }
+    div#abouttext3 {
+        height: 43%;
+    }
+    i.fa.fa-angle-down.fa-5x {
+        margin-top: 46%;
+    }
 }
