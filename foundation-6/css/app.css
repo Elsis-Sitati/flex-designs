@@ -173,3 +173,24 @@ img.thumbnail {
 @media screen and (max-width: 39.9375em) {
     div#container4 {}
 }
+textarea {
+    height: 8em;
+    width: 87%;
+    margin-left: 4%;
+}
+select {
+    width: 87%;
+    margin-left: -4%;
+    margin-top: 3%;
+}
+.small-12.medium-12.columns {
+    width: 87%;
+    margin-left: 2%;
+    margin-top: 2%;
+}
+div#contact {
+    text-align: center;
+}
+a.button {
+    margin-top: 3%;
+}
