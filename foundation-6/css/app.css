@@ -119,7 +119,7 @@ div#abouttext3 {
     padding-left: 4%;
     padding-right: 2%;
     height: 44;
-    - font-size: 21px;
+    font-size: 21px;
     font-weight: 700;
     color: #777795
 }
@@ -141,7 +141,7 @@ div#abouttext3 {
     }
 }
 div#container4 {
-    height: 150%;
+    height: 140%;
     background-color: white;
 }
 div#portfolio {
@@ -155,4 +155,12 @@ p#workp {
 }
 h3#cs {
     color: #FF004A;
+}
+.row.small-up-1.medium-up-2.large-up-3 {
+    margin-top: 10%;
+    height: 74%;
+}
+img.thumbnail {
+    height: 22em;
+    width: 22em;
 }
