@@ -119,7 +119,7 @@ div#abouttext3 {
     padding-left: 4%;
     padding-right: 2%;
     height: 44;
-    font-size: 21px;
+    - font-size: 21px;
     font-weight: 700;
     color: #777795
 }
@@ -139,4 +139,7 @@ div#abouttext3 {
     i.fa.fa-angle-down.fa-5x {
         margin-top: 46%;
     }
+}
+div#container4 {
+    height: 100%;
 }
