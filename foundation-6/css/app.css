@@ -93,7 +93,7 @@ div#container3 {
 }
 div#aboutus {
     height: 100%;
-    background-color: aliceblue;
+    background-color: white;
 }
 div#about1 {
     height: 27%;
@@ -104,4 +104,22 @@ p#abouttext1 {
     font-size: 32px;
     font-weight: 900;
     color: #444444;
+}
+div#abouttext2 {
+    margin-top: 5%;
+    padding-left: 4%;
+    padding-right: 2%;
+    height: 63%;
+    font-size: 21px;
+    font-weight: 700;
+    color: #777795
+}
+div#abouttext3 {
+    margin-top: 5%;
+    padding-left: 4%;
+    padding-right: 2%;
+    height: 63%;
+    font-size: 21px;
+    font-weight: 700;
+    color: #777795
 }
