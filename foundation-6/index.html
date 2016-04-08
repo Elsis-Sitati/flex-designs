@@ -78,7 +78,7 @@
             </div>
         </div>
     </div>
-    <div class="row expanded" id="container4">
+    <div class="row expanded" id="containerfour">
         <div class="small-12 large-12 columns" id="container4">
             <div class="row expanded" id="portfolio">
                 <div class="small-12 large-12 columns" id="portfolio">
@@ -113,7 +113,7 @@
                     <img src="img/showcase6.jpg" class="thumbnail" alt="">
                 </div>
             </div>
-            <div class="row expanded" id="contactarrrow">
+            <div class="row expanded" id="contactarrow">
                 <div class="small-12 large-12 columns " id="contactarrow">
 
                     <a href="#contacts"><i class="fa fa-angle-down fa-5x" id="contarrow"></i></a>
@@ -124,32 +124,31 @@
     </div>
     <div class="row expanded" id="container5">
         <div class="small-12 large-12 columns">
-            <div class="row expanded">
+            <div class="row expanded" id="contact">
                 <div class="small-12 large-6 columns">
                     <form>
                         <div class="row">
-                            <label>
-                                What books did you read over summer break?
-                                <textarea placeholder="None"></textarea>
-                            </label>
-                            <label>Select Menu
-                                <select>
-                                    <option value="husker">Concept</option>
-                                    <option value="starbuck">Prototype</option>
-                                    <option value="hotdog">Maintenance</option>
 
-                                </select>
-                            </label>
+                            <textarea placeholder="None"></textarea>
+
+
+                            <select>
+                                <option value="husker">Concept</option>
+                                <option value="starbuck">Prototype</option>
+                                <option value="hotdog">Maintenance</option>
+
+                            </select>
+
 
                             <div class=" small-12 medium-12 columns">
-                                <label>Name
-                                    <input type="text" placeholder=".medium-6.columns">
-                                </label>
+
+                                <input type="text" placeholder=".medium-6.columns">
+
                             </div>
                             <div class=" small-12 medium-12 columns">
-                                <label>Email
-                                    <input type="text" placeholder=".medium-6.columns">
-                                </label>
+
+                                <input type="text" placeholder=".medium-6.columns">
+
                             </div>
                             <a href="about.html" class="button">Make Contact</a>
 
@@ -159,7 +158,42 @@
 
                 </div>
                 <div class="small-12 large-6 columns">
+                    <script src='https://maps.googleapis.com/maps/api/js?v=3.exp'></script>
+                    <div style='overflow:hidden;height:440px;width:700px;'>
+                        <div id='gmap_canvas' style='height:440px;width:700px;'></div>
+                        <div><small><a href="http://embedgooglemaps.com">									embed google maps							</a></small></div>
+                        <div><small><a href="http://www.proxysitereviews.com/">proxy sites</a></small></div>
+                        <style>
+                            #gmap_canvas img {
+                                max-width: none!important;
+                                background: none!important
+                            }
 
+                        </style>
+                    </div>
+                    <script type='text/javascript'>
+                        function init_map() {
+                            var myOptions = {
+                                zoom: 10,
+                                center: new google.maps.LatLng(-1.2888114, 36.823218999999995),
+                                mapTypeId: google.maps.MapTypeId.ROADMAP
+                            };
+                            map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);
+                            marker = new google.maps.Marker({
+                                map: map,
+                                position: new google.maps.LatLng(-1.2888114, 36.823218999999995)
+                            });
+                            infowindow = new google.maps.InfoWindow({
+                                content: '<strong>Title</strong><br>Nairobi TelePoster Towers<br>'
+                            });
+                            google.maps.event.addListener(marker, 'click', function() {
+                                infowindow.open(map, marker);
+                            });
+                            infowindow.open(map, marker);
+                        }
+                        google.maps.event.addDomListener(window, 'load', init_map);
+
+                    </script>
                 </div>
             </div>
         </div>
