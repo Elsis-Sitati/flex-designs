@@ -109,7 +109,7 @@ div#abouttext2 {
     margin-top: 5%;
     padding-left: 4%;
     padding-right: 2%;
-    height: 63%;
+    height: 44%;
     font-size: 21px;
     font-weight: 700;
     color: #777795
@@ -118,8 +118,16 @@ div#abouttext3 {
     margin-top: 5%;
     padding-left: 4%;
     padding-right: 2%;
-    height: 63%;
+    height: 44;
     font-size: 21px;
     font-weight: 700;
     color: #777795
+}
+@media screen and (max-width: 39.9375em) {
+    div#about1 {
+        height: 39%;
+    }
+    p#abouttext1 {
+        font-size: 26px;
+    }
 }
