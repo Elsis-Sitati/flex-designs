@@ -141,7 +141,7 @@ div#abouttext3 {
     }
 }
 div#container4 {
-    height: 140%;
+    height: 125%;
     background-color: white;
 }
 div#portfolio {
@@ -163,4 +163,7 @@ h3#cs {
 img.thumbnail {
     height: 22em;
     width: 22em;
+}
+@media screen and (max-width: 39.9375em) {
+    div#container4 {}
 }
